@@ -5,6 +5,8 @@ Türkiyede bulunan il ve ilçelere göre istek atarak bilgilerin alınabileceği
 Daha sonrasında belki başka ülkelerde eklenebilir düşüncesi ile özellikle /tr
 olarak belirttim rotayı.
 
+[Online Demo](https://country-api-tr.herokuapp.com/)
+
 ### Kullanımı
 
 `git clone https://github.com/halilcakar/country-api.git`
@@ -17,4 +19,4 @@ VSCode Rest-Client eklentisini kullanıyorsanız `src/tr/request.http` de oluşt
 
 Yada 
 
-http://localhost:3000/tr ye tıkladıktan sonra açılan pencerede query parametresi olarak: bolge, il ve plaka şeklinde sorgulama yapabilirsiniz.
+`http://localhost:3000/tr` ye tıkladıktan sonra açılan pencerede query parametresi olarak: bolge, il ve plaka şeklinde sorgulama yapabilirsiniz.
