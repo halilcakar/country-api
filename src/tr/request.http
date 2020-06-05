@@ -1,0 +1,17 @@
+###
+GET http://localhost:5000/tr?bolge=karadeniz,ege
+
+###
+GET http://localhost:5000/tr?bolge=iç%20anadolu
+
+###
+GET http://localhost:5000/tr?il=Balıkesir
+
+###
+GET http://localhost:5000/tr?il=Balıkesir,izmir,eskişehir
+
+###
+GET http://localhost:5000/tr?plaka=35
+
+### 
+GET http://localhost:5000/tr?plaka=35,34,10,62
